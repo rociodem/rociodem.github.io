@@ -1,0 +1,56 @@
+/*IMPORTACIONES*/
+
+@import "header";
+@import "styleindex";
+@import "footer";
+@import "textos";
+@import "mediaqueries";
+
+/*Variables*/
+
+$primary: #05386B;
+$secondary: #CFB53B;
+$third: #fffdfd;
+$fourth: #C9B6B1;
+$fifth: #00CC66;
+
+/*ESTILOS GENERALES RESET*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+}
+
+
+/*ESTILOS GENERALES MAIN BODY*/
+
+main {
+    height: calc(100vh-50px-50px);
+    min-height: 70vh;
+    margin-bottom: 20px;
+}
+
+body {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+
+/* ENLACES*/
+
+a:link {
+    color: $primary;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: $primary;
+}

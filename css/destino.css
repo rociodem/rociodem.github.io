@@ -1,0 +1,370 @@
+/*IMPORTACIONES*/
+
+
+/*ESTILOS NAVBAR HEADER*/
+
+header {
+    height: 50px;
+    background-color: #CFB53B;
+    margin: 5px;
+}
+
+header .nav-item {
+    font-size: 16px;
+}
+
+
+/*ESTILOS STYLE PAGINA INDEX*/
+
+main .index-main {
+    margin-top: 10%;
+    text-align: center;
+    background-image: url(../media/logoidea.jpg);
+    background-position: center;
+    height: 60vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh-50px-50px);
+}
+
+.index-main {
+    background-image: url(../media/logoidea.jpg);
+}
+
+.main-logo {
+    margin-top: 200px;
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo img {
+    width: 400px;
+    max-width: 100%;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-input-container:hover {
+    box-shadow: 0 1px 6px 0 beige;
+    border-color: darkgrey;
+}
+
+.main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.main-input .search-icon {
+    background-image: url("https://cdn.icon-icons.com/icons2/1673/PNG/512/arrowcirclerightoutline_110897.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    padding: 15px;
+}
+
+.main-input .micro-icon {
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.boton-principal {
+    background-color: var(#05386B);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-type {
+    border: var(#CFB53B);
+}
+
+button {
+    background-color: var(#05386B);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.div-boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #CFB53B;
+    height: 50px;
+    width: 100vw;
+    position: absolute;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer a {
+    color: var(--primary--color);
+    font-size: 1.25em;
+}
+
+footer a:hover {
+    color: var(--primary--color);
+}
+
+
+/*ESTILOS TEXTOS GENERALES*/
+
+p {
+    font-size: 0.8em;
+}
+
+p a {
+    color: var(--primary--color);
+}
+
+.titulo-paginas {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary--color);
+    font-size: 60em;
+}
+
+button {
+    border: none;
+    background-color: var(--primary--color);
+}
+
+
+/*ESTILO FOTO TITULOS PAGINAS*/
+
+.titulo-paginas {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*ESTILOS IDEAS.HTML*/
+
+.row {
+    justify-content: center;
+}
+
+.marketing .col-lg-4 {
+    font-weight: 400;
+}
+
+
+/* ESTILOS RECURSOS.HTML*/
+
+.subtitulo-recursos {
+    width: 30px;
+    height: 30px;
+}
+
+.section-centros {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: var(--six--color) solid 2px;
+    border-radius: 1%;
+    list-style: none;
+}
+
+.estiloboton {
+    font-size: 1.5em;
+    color: var(--third--color);
+    border-radius: 3%;
+    background-color: var(--primary--color);
+    border: none;
+}
+
+.list-style-becas {
+    font-size: 0.8em;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    border: var(--six--color) solid 2px;
+    border-radius: 1%;
+    list-style: none;
+}
+
+.lista-recursos {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: var(--six--color) solid 2px;
+    border-radius: 1%;
+    list-style: none;
+}
+
+
+/*MEDIA QUERIES*/
+
+
+/*
+$breakpoints: ( "small": 480px, "medium": 720px, );
+@mixin small {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+*/
+
+@media (max-width: 380px) {
+    .main-logo {
+        margin: 0 auto;
+    }
+    img .main-logo {
+        width: 100%;
+        height: auto;
+    }
+    .pt-4 {
+        display: flex;
+        flex-direction: columns;
+    }
+    footer a {
+        overflow: hidden;
+        height: max-content;
+        align-items: center;
+    }
+    .items-footer {
+        padding: 3em;
+        border: dotted var(--primary--color) 1px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-logo {
+        margin: 0 auto;
+    }
+    header {
+        margin-bottom: auto;
+    }
+    button {
+        margin: auto;
+    }
+    img .main-logo {
+        width: 100%;
+        height: auto;
+    }
+    .pt-4 {
+        display: flex;
+        flex-direction: columns;
+    }
+    body {
+        display: block;
+    }
+    footer {
+        display: inherit;
+    }
+    footer a {
+        display: block;
+        align-items: center;
+        font-size: 1em;
+    }
+    body button {
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+/*Variables*/
+
+
+/*ESTILOS GENERALES RESET*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+}
+
+
+/*ESTILOS GENERALES MAIN BODY*/
+
+main {
+    height: calc(100vh-50px-50px);
+    min-height: 70vh;
+    margin-bottom: 20px;
+}
+
+body {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+
+/* ENLACES*/
+
+a:link {
+    color: #05386B;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #05386B;
+}
+
+h3 {
+    color: #05386B;
+    background-color: #CFB53B;
+    justify-items: center;
+}
+
+.centro {
+    display: flex;
+}

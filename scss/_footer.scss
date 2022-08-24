@@ -1,0 +1,20 @@
+footer {
+    background-color: #CFB53B;
+    height: 50px;
+    width: 100vw;
+    position: absolute;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer a {
+    color: var(--primary--color);
+    font-size: 1.25em;
+}
+
+footer a:hover {
+    color: var(--primary--color);
+}

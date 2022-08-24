@@ -1,0 +1,88 @@
+/*ESTILOS TEXTOS GENERALES*/
+
+p {
+    font-size: 0.8em;
+}
+
+p a {
+    color: var(--primary--color);
+}
+
+.titulo-paginas {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary--color);
+    font-size: 60em;
+}
+
+button {
+    border: none;
+    background-color: var(--primary--color);
+}
+
+
+/*ESTILO FOTO TITULOS PAGINAS*/
+
+.titulo-paginas {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*ESTILOS IDEAS.HTML*/
+
+.row {
+    justify-content: center;
+}
+
+.marketing .col-lg-4 {
+    font-weight: 400;
+}
+
+
+/* ESTILOS RECURSOS.HTML*/
+
+.subtitulo-recursos {
+    width: 30px;
+    height: 30px;
+}
+
+.section-centros {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: var(--six--color) solid 2px;
+    border-radius: 1%;
+    list-style: none;
+}
+
+.estiloboton {
+    font-size: 1.5em;
+    color: var(--third--color);
+    border-radius: 3%;
+    background-color: var(--primary--color);
+    border: none;
+}
+
+.list-style-becas {
+    font-size: 0.8em;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    border: var(--six--color) solid 2px;
+    border-radius: 1%;
+    list-style: none;
+}
+
+.lista-recursos {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: var(--six--color) solid 2px;
+    border-radius: 1%;
+    list-style: none;
+}
